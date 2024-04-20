@@ -26,4 +26,4 @@ function Input({
   );
 }
 
-export default FormInput;
+export default Input;
