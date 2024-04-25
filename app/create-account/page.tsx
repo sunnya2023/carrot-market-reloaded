@@ -23,7 +23,13 @@ function CreateAccount() {
           required
           errors={state?.fieldErrors.username}
         />
-        <Input name="email" type="email" placeholder="Eamil" required />
+        <Input
+          name="email"
+          type="email"
+          placeholder="Eamil"
+          required
+          errors={state?.fieldErrors.email}
+        />
         <Input
           name="password"
           type="password"
